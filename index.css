@@ -1,0 +1,89 @@
+:root {
+  --blue: #008f8c;
+  --lightblue: #bcc5ce;
+  --offwhite: #e6dfd9;
+  --lightbrown: #bfb3a8;
+  --brown: #7a7067;
+  --white: #f7f8fa;
+  --black: #000000;
+  --notosansfont: 'Noto Sans Mono', monospace;
+  --albertsansfont: 'Albert Sans', sans-serif;
+  --fontsize: 1.2rem;
+}
+
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: var(--albertsansfont);
+  background-color: var(--black);
+  color: var(--white);
+  font-size: var(--fontsize);
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+#intro {
+  width: 50%;
+  margin-bottom: 1.5rem;
+}
+
+#intro h2 {
+  font-size: 3.2rem;
+  font-family: var(--notosansfont);
+}
+
+#intro p {
+  font-size: 1.3rem;
+}
+
+.name span {
+  display: block;
+  font-size: 3.2rem;
+  font-family: var(--notosansfont);
+  color: var(--blue);
+}
+
+#contact {
+  width: 30%;
+  margin: auto;
+  padding: 3rem 0;
+  text-align: center;
+}
+
+#contact h3 {
+  font-size: 2.5rem;
+}
+
+.email {
+  font-size: 2rem;
+  color: var(--brown);
+}
+
+.email:hover {
+  text-decoration: none;
+}
