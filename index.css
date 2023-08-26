@@ -36,15 +36,27 @@ h3 {
 }
 
 nav ul {
-  list-style: none;
+  list-style-type: none;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
 }
 
-nav li {
-  display: inline-block;
+nav li:first-child {
+  flex-basis: 100%;
+  text-align: center;
 }
 
 nav a {
+  color: var(--white);
   text-decoration: none;
+  display: block;
+}
+
+nav a:hover {
+  color: var(--lightblue);
 }
 
 #intro {
