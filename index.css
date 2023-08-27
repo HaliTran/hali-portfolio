@@ -1,14 +1,17 @@
 :root {
   --blue: #008f8c;
-  --lightblue: #bcc5ce;
+  --darkblue: #015958;
+  --lightblue: #0fc2c0;
   --offwhite: #e6dfd9;
   --lightbrown: #bfb3a8;
+  --lightgreen: #589a8d;
+  --gray: #b4bec9;
   --brown: #7a7067;
   --white: #f7f8fa;
   --black: #000000;
   --notosansfont: 'Noto Sans Mono', monospace;
   --albertsansfont: 'Albert Sans', sans-serif;
-  --fontsize: 1.2rem;
+  --bodyfontsize: 1.2rem;
 }
 
 html {
@@ -26,7 +29,7 @@ body {
   font-family: var(--albertsansfont);
   background-color: var(--black);
   color: var(--white);
-  font-size: var(--fontsize);
+  font-size: var(--bodyfontsize);
 }
 
 h1,
@@ -81,10 +84,14 @@ nav a:hover {
 }
 
 #contact {
-  width: 30%;
-  margin: auto;
+  background-color: var(--blue);
   padding: 3rem 0;
   text-align: center;
+}
+
+.contact-layout {
+  width: 30%;
+  margin: auto;
 }
 
 #contact h3 {
@@ -93,9 +100,15 @@ nav a:hover {
 
 .email {
   font-size: 2rem;
-  color: var(--brown);
+  color: var(--white);
+  background-color: var(--darkblue);
+  width: 65%;
+  padding: 0.5rem;
+  border-radius: 10px;
+  margin: auto;
+  text-decoration: none;
 }
 
 .email:hover {
-  text-decoration: none;
+  text-decoration: underline;
 }
