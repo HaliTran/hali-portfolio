@@ -64,7 +64,7 @@ nav a:hover {
 
 #intro {
   width: 50%;
-  margin-bottom: 1.5rem;
+  margin: 5rem 0;
 }
 
 #intro h2 {
@@ -111,4 +111,16 @@ nav a:hover {
 
 .email:hover {
   text-decoration: underline;
+}
+
+@media (min-width: 850px) {
+  nav {
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  nav li:first-child {
+    flex-basis: auto;
+    margin-right: auto;
+  }
 }
