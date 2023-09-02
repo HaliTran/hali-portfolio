@@ -85,7 +85,7 @@ nav a:hover {
 
 #contact {
   background-color: var(--blue);
-  padding: 3rem 0;
+  padding: 2rem;
   text-align: center;
 }
 
@@ -102,15 +102,28 @@ nav a:hover {
   font-size: 2rem;
   color: var(--white);
   background-color: var(--darkblue);
-  width: 65%;
   padding: 0.5rem;
   border-radius: 10px;
-  margin: auto;
   text-decoration: none;
 }
 
 .email:hover {
   text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  margin: 1.5rem;
+}
+
+footer ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  font-size: 2rem;
+  padding: 0;
 }
 
 @media (min-width: 850px) {
