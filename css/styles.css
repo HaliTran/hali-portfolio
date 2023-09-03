@@ -21,21 +21,19 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  padding: 0;
-  margin: 0;
   font-family: var(--albertsansfont);
   background-color: var(--black);
   color: var(--white);
   font-size: var(--bodyfontsize);
 }
 
-h1,
-h2,
-h3 {
-  margin: 0;
+nav {
+  padding: 0 2rem;
 }
 
 nav ul {
@@ -50,6 +48,7 @@ nav ul {
 nav li:first-child {
   flex-basis: 100%;
   text-align: center;
+  margin-top: 2rem;
 }
 
 nav a {
@@ -63,8 +62,9 @@ nav a:hover {
 }
 
 #intro {
-  width: 50%;
-  margin: 5rem 0;
+  max-width: 1200px;
+  margin: auto;
+  padding: 10rem 2rem;
 }
 
 #intro h2 {
@@ -74,6 +74,7 @@ nav a:hover {
 
 #intro p {
   font-size: 1.3rem;
+  padding-top: 1rem;
 }
 
 .name span {
@@ -91,7 +92,11 @@ nav a:hover {
 
 .contact-layout {
   width: 30%;
-  margin: auto;
+  margin: 2rem auto;
+}
+
+.contact-layout p {
+  margin-top: 2.5rem;
 }
 
 #contact h3 {
@@ -123,13 +128,12 @@ footer ul {
   align-items: center;
   gap: 3rem;
   font-size: 2rem;
-  padding: 0;
 }
 
 @media (min-width: 850px) {
   nav {
     max-width: 1200px;
-    margin: auto;
+    margin: 2rem auto 0;
   }
 
   nav li:first-child {
