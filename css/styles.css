@@ -62,15 +62,6 @@ nav a:hover {
   color: var(--lightblue);
 }
 
-.gradient {
-  height: 5px;
-  background: linear-gradient(
-    90deg,
-    rgba(75, 135, 123, 1) 0%,
-    rgba(230, 223, 217, 1) 100%
-  );
-}
-
 #intro {
   max-width: 1200px;
   margin: auto;
@@ -153,6 +144,15 @@ footer span {
 
 footer span:hover {
   color: #008f8c;
+}
+
+.gradient {
+  height: 2px;
+  background: linear-gradient(
+    90deg,
+    rgba(75, 135, 123, 1) 0%,
+    rgba(230, 223, 217, 1) 100%
+  );
 }
 
 @media (min-width: 850px) {
