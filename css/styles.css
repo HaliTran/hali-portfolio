@@ -1,5 +1,6 @@
 :root {
   --blue: #10abb4;
+  --purple: #4e64a6;
   --gray: #b4bec9;
   --darkgray: #333333;
   --white: #f7f8fa;
@@ -62,8 +63,8 @@ nav a:hover {
   padding: 10rem 2rem;
 }
 
-#intro h2 {
-  font-size: 3.2rem;
+#intro h3 {
+  font-size: 2.5rem;
   font-family: var(--notosansfont);
 }
 
@@ -74,7 +75,8 @@ nav a:hover {
 
 .name span {
   display: block;
-  font-size: 3.2rem;
+  font-size: 4rem;
+  color: var(--purple);
   font-family: var(--notosansfont);
 }
 
@@ -85,6 +87,10 @@ nav a:hover {
 #projects h2 {
   font-size: 2rem;
   font-family: var(--notosansfont);
+}
+
+.project img {
+  border-radius: 20px;
 }
 
 .project h4 {
