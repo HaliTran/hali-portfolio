@@ -105,12 +105,9 @@ nav a:hover {
   gap: 2rem;
 }
 
-.project-image-container img {
+img {
+  display: block;
   width: 100%;
-  border-radius: 10px;
-}
-
-.project-image-container {
   border-radius: 40px;
   margin: 2rem 0;
   padding: 1rem;
@@ -218,9 +215,5 @@ footer span:hover {
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
     align-items: center;
-  }
-
-  .project-image-container img {
-    width: 100%;
   }
 }
