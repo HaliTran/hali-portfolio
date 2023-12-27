@@ -256,6 +256,10 @@ footer span:hover {
     width: 40%;
   }
 
+  .order1 {
+    order: 1;
+  }
+
   /* Desktop view styling for About Me page */
   #about-me {
     max-width: 1200px;
